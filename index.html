@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arthrohard</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.cdnfonts.com/css/futura-condensed-pt"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="screenBlur"></div>
+    <header>
+      <nav class="navbar">
+        <div class="logoContainer">
+          <img src="./img/Logo.svg" alt="logo firmy Arthrohard" />
+        </div>
+        <div class="mobileButtonContainer">
+          <div class="mobileMenuButton"></div>
+        </div>
+        <div class="mobileMenuButtonsContainer">
+          <button class="mobileNavButton">DZIAŁANIE PREPARATU</button>
+          <button class="mobileNavButton">ZALECENIA</button>
+          <button class="mobileNavButton">SKŁAD</button>
+          <button class="mobileNavButton">DAWKOWANIE</button>
+          <button class="mobileNavButton">OPINIE</button>
+        </div>
+        <div class="menuButtonsContainer">
+          <button
+            class="aboutButton menuButton"
+            data-section="section1"
+            id="aboutButton"
+          >
+            CO NAS WYRÓŻNIA
+          </button>
+          <button
+            class="compositionButton menuButton"
+            data-section="section2"
+            id="compositionButton"
+          >
+            SKŁAD
+          </button>
+          <button
+            class="productsButton menuButton"
+            data-section="section3"
+            id="productsButton"
+          >
+            PRODUKTY
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <img src="img/DektopBannerShape.svg" alt="" class="desktopBannerShape" />
+    <div class="innerWidthWrapper">
+      <section class="mainBanner section" id="section0">
+        <img
+          src="./img/bannerProductImg.svg"
+          alt="zdjęcie produktu Arthrohard"
+          class="bannerProductImg"
+        />
+        <div class="bannerDescription">
+          <img
+            src="./img/Logo.svg"
+            alt="logo firmy Arthrohard"
+            class="bannerLogo"
+          />
+          <h2>
+            Lab-V Arthrohard Preparat
+            <br />
+            na wsparcie stawów dla psa i kota
+          </h2>
+          <p>
+            Arthrohard to dobrze przyswajalny suplement diety w formie syropu,
+            stworzony z myślą o zdrowiu stawów Twojego psa lub kota.
+          </p>
+          <button class="bannerButton">Kup teraz</button>
+        </div>
+      </section>
+      <div class="mobileShapeContainer">
+        <img src="img/shapesMobile1.svg" alt="" class="mobileShape1" />
+      </div>
+      <section class="about section" id="section1">
+        <h1 class="aboutTitle">Co wyróżnia nasz preparat</h1>
+        <hr class="mainHeadersHr" />
+        <img src="img/DesktopAboutShape.svg" alt="" class="dektopAboutShape" />
+        <div class="aboutBlocks">
+          <div class="aboutBlock">
+            <h3 class="aboutBlockTitle">
+              Innowacyjny dodatek -
+              <br />
+              Czarciego Pazura
+            </h3>
+            <hr class="aboutBlockHr" />
+            <p class="aboutBlockDescription">
+              Zapewnia dodatkowe wsparcie w zwalczaniu stanów bólowych i
+              zapalnych. Skoncentrowane składniki aktywne, opracowane we
+              współpracy z lekarzami weterynarii, przynoszą szybkie i zauważalne
+              efekty, szczególnie korzystne dla zwierząt z poważnymi problemami
+              stawowymi.
+            </p>
+            <img src="./img/blockImg1.svg" alt="kwiatek" />
+          </div>
+          <div class="mobileShapeContainer">
+            <img src="img/shapesMobile2.svg" alt="" class="mobileShape2" />
+          </div>
+          <div class="aboutBlock">
+            <h3 class="aboutBlockTitle">
+              Wygoda -
+              <br />
+              dwa sposoby podawania
+            </h3>
+            <hr class="aboutBlockHr" />
+            <div class="aboutBlockDescription">
+              <div class="blockNumberContainer">
+                <div class="number">1</div>
+                <p class="numberDescription">Bezpośrednio do pyszczka</p>
+              </div>
+              <div class="blockNumberContainer">
+                <div class="number">2</div>
+                <p class="numberDescription">Zmieszany z karmą</p>
+              </div>
+            </div>
+
+            <img src="./img/blockImg2.svg" alt="pieski" />
+          </div>
+
+          <div class="mobileShapeContainer">
+            <img src="img/shapesMobile3.svg" alt="" class="mobileShape3" />
+          </div>
+
+          <div class="aboutBlock">
+            <h3 class="aboutBlockTitle">
+              Skuteczność -
+              <br />
+              skoncetrowana dawka
+            </h3>
+            <hr class="aboutBlockHr" />
+            <p class="aboutBlockDescription">
+              <span style="font-weight: 450">Tylko jedna porcja dziennie. </span
+              >To nie tylko wygoda, ale również gwarancja, że Twoje zwierzę
+              otrzymuje wszystko, czego potrzebuje, aby cieszyć się zdrowiem i
+              aktywnością na długo. Skorzystaj z zalet Arthrohard i zobacz
+              różnicę w komforcie życia swojego zwierzęcia.
+            </p>
+            <img src="./img/blockImg3.svg" alt="skrzykawka" />
+          </div>
+        </div>
+      </section>
+      <div class="mobileShapeContainer">
+        <img src="img/shapesMobile4.svg" alt="" class="mobileShape4" />
+      </div>
+      <section class="productAdvantages" id="productAdvantagesSection">
+        <h1 class="productAdvantagesTitle">Działanie preparatu</h1>
+        <hr class="mainHeadersHr" />
+
+        <div class="advantagesContainer" id="advantageContainer">
+          <div class="advantageContainer">
+            <div class="number">1</div>
+            <p class="advantageDescription">
+              Wsparcie rozwoju chrząstki stawowej
+            </p>
+          </div>
+          <div class="advantageContainer">
+            <div class="number">2</div>
+            <p class="advantageDescription">Działanie chondroprotekcyjne</p>
+          </div>
+          <div class="advantageContainer">
+            <div class="number">3</div>
+            <p class="advantageDescription">
+              Zmniejszenie stanu zapalnego i bólu
+            </p>
+          </div>
+          <div class="advantageContainer">
+            <div class="number">4</div>
+            <p class="advantageDescription">Wzmocnienie stawów</p>
+          </div>
+          <div class="advantageContainer">
+            <div class="number">5</div>
+            <p class="advantageDescription">Ochrona przed mikrourazami</p>
+          </div>
+          <div class="advantageContainer">
+            <div class="number">6</div>
+            <p class="advantageDescription">
+              Regeneracja po urazach <br />i zabiegach ortopedycznych
+            </p>
+          </div>
+          <div class="advantageContainer">
+            <div class="number">7</div>
+            <p class="advantageDescription">Poprawa jakości życia</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="composition section" id="section2">
+        <div class="mobileShapeContainer">
+          <img src="img/shapesMobile5.svg" alt="" class="mobileShape5" />
+        </div>
+        <h1 class="compositionTitle">Skład w 5 ml</h1>
+        <hr class="mainHeadersHr" />
+
+        <h3>Co dają poszególne składniki:</h3>
+        <hr class="mainHeadersHr ingradients" />
+
+        <div class="gridItems">
+          <div class="gridItem1">
+            <div class="compositionCircle"></div>
+            <span class="compositionName">Siarczan glukozaminy</span>
+            <p class="compositionValue">650mg</p>
+            <p class="compositionDescription">
+              Glukozamina jest naturalnym składnikiem chrząstki. Dodatek
+              glukozaminy przyczynia się do zwiększenia produkcji
+              glikozaminoglikanów (m.in. siarczanu keratanu, heparanu, kwasu
+              hialuronowego), które pomagają w odbudowie chrząstki, co jest
+              szczególnie korzystne dla zwierząt ze zmianami zwyrodnieniowymi
+              stawów.
+            </p>
+          </div>
+          <div class="mobileShapeContainer">
+            <img src="img/shapesMobile6.svg" alt="" class="mobileShape6" />
+          </div>
+          <div class="gridItem5">
+            <div class="compositionCircle"></div>
+            <span class="compositionName">Czarci pazur</span>
+            <p class="compositionValue">250mg</p>
+            <p class="compositionDescription">
+              Czarci pazur jest rośliną, która ma właściwości przeciwzapalne i
+              przeciwbólowe. Może to pomóc zwierzętom, które doświadczają bólu i
+              stanu zapalnego związanego z problemami ze stawami.
+            </p>
+          </div>
+          <div class="gridItem2">
+            <div class="compositionCircle"></div>
+            <span class="compositionName">Siarczan chondroityny</span>
+            <p class="compositionValue">300mg</p>
+            <p class="compositionDescription">
+              Chondroityna, podobnie jak glukozamina, jest składnikiem
+              chrząstki. Chondroityna pomaga zwalczać enzymy, które niszczą
+              chrząstkę, a także pomaga chrząstce zatrzymać wodę, co jest ważne
+              dla jej sprężystości i absorpcji wstrząsów.
+            </p>
+          </div>
+          <div class="mobileShapeContainer">
+            <img src="img/shapesMobile7.svg" alt="" class="mobileShape7" />
+          </div>
+          <div class="gridItem6">
+            <div class="compositionCircle"></div>
+            <span class="compositionName">Witamina C</span>
+            <p class="compositionValue">50mg</p>
+            <p class="compositionDescription">
+              Witamina C jest potężnym przeciwutleniaczem, który może pomóc w
+              ochronie stawów poprzez neutralizację wolnych rodników, które mogą
+              uszkadzać chrząstkę. Ponadto, witamina C odgrywa ważną rolę w
+              produkcji kolagenu, kluczowego składnika chrząstki.
+            </p>
+          </div>
+          <div class="gridItem3">
+            <div class="compositionCircle"></div>
+            <span class="compositionName">Kwas hialuronowy</span>
+            <p class="compositionValue">50mg</p>
+            <p class="compositionDescription">
+              Kwas hialuronowy jest kluczowym składnikiem płynu stawowego, który
+              działa jak smar i amortyzator dla stawów. Suplementacja kwasem
+              hialuronowym może pomóc w utrzymaniu prawidłowej objętości i
+              konsystencji płynu stawowego.
+            </p>
+          </div>
+          <div class="mobileShapeContainer">
+            <img src="img/shapesMobile8.svg" alt="" class="mobileShape8" />
+          </div>
+          <div class="gridItem7">
+            <div class="compositionCircle"></div>
+            <span class="compositionName">MSM</span>
+            <p class="compositionValue">250mg</p>
+            <p class="compositionDescription">
+              Metylosulfonylometan, czyli MSM, to naturalny związek siarki,
+              który pomaga w utrzymaniu zdrowych stawów poprzez zmniejszenie
+              stanu zapalnego i bólu. MSM może również pomagać w produkcji
+              kolagenu, co przyczynia się do zdrowia chrząstki stawowej.
+            </p>
+          </div>
+          <div class="gridItem8">
+            <div class="compositionCircle"></div>
+            <span class="compositionName"
+              >Syrop glukozowo<br />- fruktozowy</span
+            >
+            <p class="compositionValue">250mg</p>
+            <p class="compositionDescription"></p>
+          </div>
+          <div class="gridItem9"></div>
+          <div class="gridItem10"></div>
+
+          <div class="gridItem4">
+            <img src="./img/parallaxComponent1.svg" alt="" id="parallaxImage" />
+            <button class="buyNowParallaxButton">Kup teraz</button>
+          </div>
+        </div>
+        <div class="parallaxHiddenElement"></div>
+      </section>
+
+      <section class="products section" id="section3">
+        <div class="parallaxHiddenElement"></div>
+        <div class="productOnSiteSelector">
+          <div class="selectorWrapper">
+            <div class="productNumberText">liczba produktów na stronie</div>
+            <select name="numbers" id="productsNumber" class="numberSelector">
+              <option value="20">20</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="productsWrapper">
+          <ul class="productList"></ul>
+          <div id="observerElement"></div>
+        </div>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
